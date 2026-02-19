@@ -1,0 +1,718 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32617 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityEditors\2022.3.62f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GithubAlt/NonRepoProjects/PuzzleGameProject/PuzzleGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53500
+Successfully changed project path to: D:/GithubAlt/NonRepoProjects/PuzzleGameProject/PuzzleGame
+D:/GithubAlt/NonRepoProjects/PuzzleGameProject/PuzzleGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19192]  Target information:
+
+Player connection [19192]  * "[IP] 192.168.8.182 [Port] 0 [Flags] 2 [Guid] 41226610 [EditorId] 41226610 [Version] 1048832 [Id] WindowsEditor(7,VENGEANCE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path D:/UnityEditors/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GithubAlt/NonRepoProjects/PuzzleGameProject/PuzzleGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 SUPER (ID=0x2702)
+    Vendor:   NVIDIA
+    VRAM:     16045 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'D:/UnityEditors/2022.3.62f2/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditors/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityEditors/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityEditors/2022.3.62f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/UnityEditors/2022.3.62f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/UnityEditors/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002695 seconds.
+- Loaded All Assemblies, in  0.199 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 151 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 516ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (202ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 646ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3762.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 1.823100 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.598100 ms  DeleteObjects: 0.054700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DisableMeshRenderer.cs: e90a04d2e2b168fb49b1a40e34fd1a5a -> 
+  custom:scripting/monoscript/fileName/JumpFlip.cs: bfff0606215ee4a30f00a5d939ffd41f -> 
+  custom:scripting/monoscript/fileName/MatchSymbolWithColor.cs: b2808351333d05a7f9a8a9142c34e815 -> 
+  custom:scripting/monoscript/fileName/PagesSystem.cs: a83a0b7eee35c1de18e6d79c4602f2fd -> 
+  custom:scripting/monoscript/fileName/Draggable.cs: 66e863476ed45cd643d76e3047e101d7 -> 
+  custom:scripting/monoscript/fileName/RotateAndMoveAround.cs: b237da34837051904221c7ff2b1eee59 -> 
+  custom:scripting/monoscript/fileName/LevelCreator.cs: 080573d289654572850b5958f11e973f -> 
+  custom:scripting/monoscript/fileName/GridMovementsController.cs: 98b5d16448925c14f56f1b2bcce9567a -> 
+  custom:scripting/monoscript/fileName/Screw.cs: 3d82257bc49165470acd05be3a7538db -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LockedSlotsWithKey.cs: 7c775ab0e413761abd4ca843e2bb509c -> 
+  custom:scripting/monoscript/fileName/DragRotate.cs: e4b8f9c218bb3c7e6e0a5582a1926e9f -> 
+  custom:scripting/monoscript/fileName/PlaceSelectedObject.cs: 775b436da7cc2531a356bbf0b4b04c32 -> 
+  custom:scripting/monoscript/fileName/Clickable.cs: ffd1317c1f9d390215fed1bab1610d66 -> 
+  custom:scripting/monoscript/fileName/HammerSkill.cs: d9f5275122a627d5b84b2d9af5d346fa -> 
+  custom:scripting/monoscript/fileName/GridGenerator.cs: 72472d03bc76b7564c0948d14c21a37f -> 
+  custom:scripting/monoscript/fileName/UnparentOnEnable.cs: 7d2e2772282ea52aec0f317c43ae7cbc -> 
+  custom:scripting/monoscript/fileName/FillUpConveyorBeltColorsRandomly.cs: c1819eb837eb9cb147719f400f559b70 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AudioManager.cs: 475d1c509fa5a01005438a762f599615 -> 
+  custom:scripting/monoscript/fileName/SoundsManagerForTemplate.cs: 5f587482846bf542ff31b7e9dbf97de4 -> 
+  custom:scripting/monoscript/fileName/DisableDebuggingInBuilds.cs: 2d00a87048f8ab6d9c4b804e2693337b -> 
+  custom:scripting/monoscript/fileName/TutorialMovement.cs: 7cec80b2dc3a6665278b795f0bad6a8f -> 
+  custom:scripting/monoscript/fileName/StackColors.cs: ff8d97789d44bce9868565e2e8a77c64 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FollowMousePosition.cs: 7fabd9d3fc55656db1c7e001ff1d071c -> 
+  custom:scripting/monoscript/fileName/SortCardsLevelCheck.cs: 55d4d9fbdd660cf6434e826c24ccff36 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AudioButton.cs: e0de8813a8b1961b9a731be8dd42dff6 -> 
+  custom:scripting/monoscript/fileName/ScaleDownAndDestroy.cs: 539633d14d5b710604c348914debd76c -> 
+  custom:scripting/monoscript/fileName/CubeWithScrews.cs: 6e44506b243030b7ad0de11bac4c3fc1 -> 
+  custom:scripting/monoscript/fileName/TutorialHandManager.cs: 6c476e24ef9179b8a64041972168fd9e -> 
+  custom:scripting/monoscript/fileName/ShowcaseParent.cs: b9a518a0bd9f2c45d5b85ed3c3b5733d -> 
+  custom:scripting/monoscript/fileName/BoltHolder.cs: a83865fe224d353e23d8f1793b77ae6c -> 
+  custom:scripting/monoscript/fileName/SensorCheckForExit.cs: 6756e25f623d9a2299d775ac3ab95201 -> 
+  custom:scripting/monoscript/fileName/PossibleGridPositions.cs: 747188c87423ba42379bdba5e240e5ae -> 
+  custom:scripting/monoscript/fileName/RuntimePrefabCreator.cs: 122dd0201f710f2262866386ff233a3f -> 
+  custom:scripting/monoscript/fileName/BoxJumpController.cs: af2053018528e17b48bcc19b47ec6bb4 -> 
+  custom:scripting/monoscript/fileName/MovesConstraint.cs: 0f9e184ea41fb8b32a738e64a79e43ed -> 
+  custom:scripting/monoscript/fileName/AnimationPlayer.cs: 70feb37e9ff9dd7d2c4dceba468b62a1 -> 
+  custom:scripting/monoscript/fileName/LevelManager.cs: 0959f45d5165d332cce097aa0a887a90 -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenPosition.cs: 933f15a6f695b7891c41909bc2d41a95 -> 
+  custom:scripting/monoscript/fileName/ProgressBar.cs: f3ee896909df9b0485470f57919b1db0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayersManager.cs: 350f764376dffd9127d498f0c0c866bf -> 
+  custom:scripting/monoscript/fileName/SetMaterialAtStart.cs: 433bb914a3dd804fac7a2021a852a005 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawnSlices.cs: aee3173c9d7f206756a6666327bf1abd -> 
+  custom:scripting/monoscript/fileName/ClickableScrewManager.cs: 3b9600dddcf0fca47008dd53b36bb606 -> 
+  custom:scripting/monoscript/fileName/SetUpLevelDetailsUI.cs: 80fb5b1777e7f98b269387192db72a4e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/OnTriggerEnterDoEvent.cs: 118ab718b96b2415a3c6cf5b0984c9aa -> 
+  custom:scripting/monoscript/fileName/ToggleChangeEvents.cs: ca082371a09b2d13b6adee84dff77875 -> 
+  custom:scripting/monoscript/fileName/OccupiedGrid.cs: e04d01e04e5f3eeb41473af40a34ab02 -> 
+  custom:scripting/monoscript/fileName/MergeStackButton.cs: 3b85d1f1ab4326332cf3039c8617f9c2 -> 
+  custom:scripting/monoscript/fileName/LockBlock.cs: 8e59c5f8b1129b36c357921ff080be93 -> 
+  custom:scripting/monoscript/fileName/UnlockedColors.cs: c38662fbac353eed098b5b325aa84cee -> 
+  custom:scripting/monoscript/fileName/GridTypes.cs: e03f27c3883905fee6dca6a116b4f433 -> 
+  custom:scripting/monoscript/fileName/ClickableByHammer.cs: 021accddf4a39a0f9bda8bf84705e699 -> 
+  custom:scripting/monoscript/fileName/ScaleAnimation.cs: 9143fbea0cf5ddf092af87089d0339bc -> 
+  custom:scripting/monoscript/fileName/GridChildrenAreSelectable.cs: 629be411c2952d96743f03648ea9cc15 -> 
+  custom:scripting/monoscript/fileName/DealStackButton.cs: 00d910e819762a27525dc907628d8d07 -> 
+  custom:scripting/monoscript/fileName/BoltMover.cs: 379bc29884d9c191125888a91d3afb57 -> 
+  custom:scripting/monoscript/fileName/FollowObject.cs: 84d25facf7ffda5816b3094355f3abe4 -> 
+  custom:scripting/monoscript/fileName/MatchCompletedEffectSpawner.cs: a47d489c3c4f20a33ba44e69b2029392 -> 
+  custom:scripting/monoscript/fileName/CheckForMoreTargetPositions.cs: 9a6ccd06764c547d6deb65ec2058a6e9 -> 
+  custom:scripting/monoscript/fileName/MoneyImageMoving.cs: 8181c96cf48badd25b43463ee7113097 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRespawn.cs: bd418e6cecd3a306a2f00d3cf6ad35dd -> 
+  custom:scripting/monoscript/fileName/ShowRemoveIcons.cs: cf53c537597a08b4e6c1bbff169127d9 -> 
+  custom:scripting/monoscript/fileName/TargetsDisplay.cs: 128a7a980e0999180cee0ef9d7147505 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RotateConstantly.cs: a830a1d659145ea444520b270badb16a -> 
+  custom:scripting/monoscript/fileName/SkillButton.cs: 048f13ff63ceee00ea524d078c41fad4 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Block.cs: 0ce38cae3b19291231ac10238ba002f4 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DropdownChangeEvents.cs: 27c0189c6a9907570d7cad330bb752ef -> 
+  custom:scripting/monoscript/fileName/ParabolicJump.cs: bedeb9caac673c25b1fff023b30ea667 -> 
+  custom:scripting/monoscript/fileName/DestroyGameobject.cs: 2fb9d3f33a5db7a0a1d5c85199bd7361 -> 
+  custom:scripting/monoscript/fileName/SpawnerOfStackContainer.cs: 7d2dabc4568e8992783f2b4b867adf56 -> 
+  custom:scripting/monoscript/fileName/DominoPointsManager.cs: 739f57555d0a066e1f1708ed7e1e59bb -> 
+  custom:scripting/monoscript/fileName/NutMoveOnBolt.cs: 4c7dfde0b816e6d0b3d30f135032a0bf -> 
+  custom:scripting/monoscript/fileName/PhysicalButton.cs: 68918270bf5789f4e779499949f18fb5 -> 
+  custom:scripting/monoscript/fileName/SetTransformOnEnable.cs: fd253272ee33e7830620f3b1bbdd89ec -> 
+  custom:scripting/monoscript/fileName/LevelManagerUnscrewJam.cs: f5989ad5f430acc044f399030e629476 -> 
+  custom:scripting/monoscript/fileName/ColorManager.cs: b6db1c0204e14fde5f537bf86f6f62eb -> 
+  custom:scripting/monoscript/fileName/MovableObject.cs: f69950cfdee8c8419f907b67fd3b1585 -> 
+  custom:scripting/monoscript/fileName/TrailColorChanger.cs: 30c07dbf702a49d06d7bcbf34937975b -> 
+  custom:scripting/monoscript/fileName/ContainerHolesHolder.cs: ca1abe961cb650e653588a16bea0d222 -> 
+  custom:scripting/monoscript/fileName/ScrewsLeftCounter.cs: 64b37b445028cc7eb3fcb27fb72cd825 -> 
+  custom:scripting/monoscript/fileName/CheckNeighbours.cs: 67f88fc406ba2d602c95ffb7f24b0126 -> 
+  custom:scripting/monoscript/fileName/LookAtObject.cs: ba6f98c3a0b3ebb652561c06d12cdef7 -> 
+  custom:scripting/monoscript/fileName/CheckNeighboursQueue.cs: 8baeed8bd77b727d0b27f006b57ea0dc -> 
+  custom:scripting/monoscript/fileName/PositionAnimation.cs: 0cd784076f8dabd7901d72ff47b4088d -> 
+  custom:scripting/monoscript/fileName/SpawnObjectsAndTheirVisuals.cs: a8ec6d757236cae91411d496b9627179 -> 
+  custom:scripting/monoscript/fileName/MainCameraController.cs: 75f8070c300b64c5865ebb085a0134cb -> 
+  custom:scripting/monoscript/fileName/OpenUrl.cs: d058ce92234ee1c3f542f4d859dbbb04 -> 
+  custom:scripting/monoscript/fileName/OnClickRelation.cs: e15b6044bbbbf162a6bf3fd4f4147884 -> 
+  custom:scripting/monoscript/fileName/RotationAnimation.cs: 8a733acbb1862177884799bfbd036e04 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SlicesOrderNextToEachOther.cs: 0683b77febe551f670321f29b96c737e -> 
+  custom:scripting/monoscript/fileName/TutorialUI.cs: df1916a94d2f445ac0804171e6db2fae -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnlockableGrid.cs: d8e8029dd80800254070bcc6204cf2d3 -> 
+  custom:scripting/monoscript/fileName/SnapObjectToGrid.cs: f1b3e3cf76d97b3aab0e1e9fc1e7db58 -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRandomManualRespawn.cs: 504f7cebaa6c4f03a90e6442ebdb433f -> 
+  custom:scripting/monoscript/fileName/SliderValueUI.cs: 5327df894a7d9e8167a3cc966b8e8921 -> 
+  custom:scripting/monoscript/fileName/StackContainer.cs: 1400e246a93ed9562c31b1c1d34d6f4b -> 
+  custom:scripting/monoscript/fileName/ScrewForJam.cs: 6e755186ed25f8b6f3196aff7fa04d1b -> 
+  custom:scripting/monoscript/fileName/ScrewManager.cs: 72196fffd790ca29644c368d77452fac -> 
+  custom:scripting/monoscript/fileName/ScrewBox.cs: 8e46a45e07dd10b6445cc5a2443aa065 -> 
+  custom:scripting/monoscript/fileName/LockInStack.cs: 809e3ebe04661efc3e2c14ddb7b5a713 -> 
+  custom:scripting/monoscript/fileName/MoneyChooserUI.cs: 957e911ee0c17c6f9c4bd5149e2a9a66 -> 
+  custom:scripting/monoscript/fileName/BoxSpacesForCans.cs: 841eb9ffcfff96bda010c0998b146de9 -> 
+  custom:scripting/monoscript/fileName/CollectedEffects.cs: 6573d0b5e6250cc53fcd70963170082f -> 
+  custom:scripting/monoscript/fileName/RayCaster.cs: 0e60e46b84cfede0ce38311310965c1e -> 
+  custom:scripting/monoscript/fileName/SelectableAfterPlaced.cs: b57535a772b451243ab6e3f6eb468db1 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawn.cs: 92aacc768faefdfe9ebc4d94c3d1f715 -> 
+  custom:scripting/monoscript/fileName/RotatingBlade.cs: 992f36b87973d70cde5fc273506330a2 -> 
+  custom:scripting/monoscript/fileName/ConveyorBelt.cs: 5c7417e26c71e75aa9f7b3f541df4992 -> 
+  custom:scripting/monoscript/fileName/CanBottle.cs: aff27a70385a6dd6909bdcd20df2a116 -> 
+  custom:scripting/monoscript/fileName/RewriteCollectedStacksCounter.cs: bd24a82f8a41699e7698f327d9a52fb4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: ebadf204c193151de10e95fc1f1bb317 -> 
+  custom:scripting/monoscript/fileName/SetConstantTrailWidth.cs: 81c95e2f1e56453dbc79f43c163c8670 -> 
+  custom:scripting/monoscript/fileName/FocusableObject.cs: 177fb84dae3bcfbf08aeea8b4c92eaee -> 
+  custom:scripting/monoscript/fileName/ClickedOptionsPopupManager.cs: 2aacbf8f5775f14907e7a7f34470f2cf -> 
+  custom:scripting/monoscript/fileName/Slice.cs: 4989648ed8660912e8d5f730a7a7c5b9 -> 
+  custom:scripting/monoscript/fileName/ParabolicJumpEnd.cs: edafbcc510efda0e51e36a2ea479b938 -> 
+  custom:scripting/monoscript/fileName/DisableAllClickableScriptsInChildren.cs: 990b8ce17cd7ebf9f658d66e745f3fa6 -> 
+  custom:scripting/monoscript/fileName/MoveObjectOnAxis.cs: 01c2d80612ddfb0f9eacbcb15ef870ff -> 
+  custom:scripting/monoscript/fileName/CollectedStacksCounter.cs: 1bd02cfecb901dc3786d0b993f93203c -> 
+  custom:scripting/monoscript/fileName/HideColor.cs: ad2367a3d50bb5f0576c8999dede4046 -> 
+  custom:scripting/monoscript/fileName/ContainersManager.cs: a96d0e96b709baa19074f811e6f64017 -> 
+  custom:scripting/monoscript/fileName/SphereCaster.cs: cefbcb7071e1c16b42a5e0283d56f1e2 -> 
+  custom:scripting/monoscript/fileName/ToggleManager.cs: d6cb8db8661662a0f5ef2823cc198a0c -> 
+  custom:scripting/monoscript/fileName/CreateNewVisualAtStart.cs: 8551acbefb2ed074782e110078aed8b0 -> 
+  custom:scripting/monoscript/fileName/CollectedPiecesCounter.cs: 7aa53610b0cdfbca6ce8ef9348e7497e -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenRotation.cs: bd6cf5870585b4934d7502f69505fac7 -> 
+  custom:scripting/monoscript/fileName/ListExtensions.cs: ddea891db07aa42f24817e329dedf122 -> 
+  custom:scripting/monoscript/fileName/HighlightMatchingStack.cs: a61cc43d9b1de0fd95513eb777e3e1b1 -> 
+  custom:scripting/monoscript/fileName/SpaceChildrenEvenly.cs: a05776194a75b679981fafc50f242e36 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 268074.297215 seconds.
+  path: Assets/Resources/ParabolicJumpEnd.prefab
+  artifactKey: Guid(023e999e7f546b44bb46df5b13ab8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ParabolicJumpEnd.prefab using Guid(023e999e7f546b44bb46df5b13ab8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '483319ec33e21f0ad03af1bf27852889') in 0.066411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.240 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 696ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3905.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 1.569500 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.391800 ms  DeleteObjects: 0.018900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DisableMeshRenderer.cs: e90a04d2e2b168fb49b1a40e34fd1a5a -> 
+  custom:scripting/monoscript/fileName/JumpFlip.cs: bfff0606215ee4a30f00a5d939ffd41f -> 
+  custom:scripting/monoscript/fileName/MatchSymbolWithColor.cs: b2808351333d05a7f9a8a9142c34e815 -> 
+  custom:scripting/monoscript/fileName/PagesSystem.cs: a83a0b7eee35c1de18e6d79c4602f2fd -> 
+  custom:scripting/monoscript/fileName/Draggable.cs: 66e863476ed45cd643d76e3047e101d7 -> 
+  custom:scripting/monoscript/fileName/RotateAndMoveAround.cs: b237da34837051904221c7ff2b1eee59 -> 
+  custom:scripting/monoscript/fileName/LevelCreator.cs: 080573d289654572850b5958f11e973f -> 
+  custom:scripting/monoscript/fileName/GridMovementsController.cs: 98b5d16448925c14f56f1b2bcce9567a -> 
+  custom:scripting/monoscript/fileName/Screw.cs: 3d82257bc49165470acd05be3a7538db -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LockedSlotsWithKey.cs: 7c775ab0e413761abd4ca843e2bb509c -> 
+  custom:scripting/monoscript/fileName/DragRotate.cs: e4b8f9c218bb3c7e6e0a5582a1926e9f -> 
+  custom:scripting/monoscript/fileName/PlaceSelectedObject.cs: 775b436da7cc2531a356bbf0b4b04c32 -> 
+  custom:scripting/monoscript/fileName/Clickable.cs: ffd1317c1f9d390215fed1bab1610d66 -> 
+  custom:scripting/monoscript/fileName/HammerSkill.cs: d9f5275122a627d5b84b2d9af5d346fa -> 
+  custom:scripting/monoscript/fileName/GridGenerator.cs: 72472d03bc76b7564c0948d14c21a37f -> 
+  custom:scripting/monoscript/fileName/UnparentOnEnable.cs: 7d2e2772282ea52aec0f317c43ae7cbc -> 
+  custom:scripting/monoscript/fileName/FillUpConveyorBeltColorsRandomly.cs: c1819eb837eb9cb147719f400f559b70 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AudioManager.cs: 475d1c509fa5a01005438a762f599615 -> 
+  custom:scripting/monoscript/fileName/SoundsManagerForTemplate.cs: 5f587482846bf542ff31b7e9dbf97de4 -> 
+  custom:scripting/monoscript/fileName/DisableDebuggingInBuilds.cs: 2d00a87048f8ab6d9c4b804e2693337b -> 
+  custom:scripting/monoscript/fileName/TutorialMovement.cs: 7cec80b2dc3a6665278b795f0bad6a8f -> 
+  custom:scripting/monoscript/fileName/StackColors.cs: ff8d97789d44bce9868565e2e8a77c64 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FollowMousePosition.cs: 7fabd9d3fc55656db1c7e001ff1d071c -> 
+  custom:scripting/monoscript/fileName/SortCardsLevelCheck.cs: 55d4d9fbdd660cf6434e826c24ccff36 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AudioButton.cs: e0de8813a8b1961b9a731be8dd42dff6 -> 
+  custom:scripting/monoscript/fileName/ScaleDownAndDestroy.cs: 539633d14d5b710604c348914debd76c -> 
+  custom:scripting/monoscript/fileName/CubeWithScrews.cs: 6e44506b243030b7ad0de11bac4c3fc1 -> 
+  custom:scripting/monoscript/fileName/TutorialHandManager.cs: 6c476e24ef9179b8a64041972168fd9e -> 
+  custom:scripting/monoscript/fileName/ShowcaseParent.cs: b9a518a0bd9f2c45d5b85ed3c3b5733d -> 
+  custom:scripting/monoscript/fileName/BoltHolder.cs: a83865fe224d353e23d8f1793b77ae6c -> 
+  custom:scripting/monoscript/fileName/SensorCheckForExit.cs: 6756e25f623d9a2299d775ac3ab95201 -> 
+  custom:scripting/monoscript/fileName/PossibleGridPositions.cs: 747188c87423ba42379bdba5e240e5ae -> 
+  custom:scripting/monoscript/fileName/RuntimePrefabCreator.cs: 122dd0201f710f2262866386ff233a3f -> 
+  custom:scripting/monoscript/fileName/BoxJumpController.cs: af2053018528e17b48bcc19b47ec6bb4 -> 
+  custom:scripting/monoscript/fileName/MovesConstraint.cs: 0f9e184ea41fb8b32a738e64a79e43ed -> 
+  custom:scripting/monoscript/fileName/AnimationPlayer.cs: 70feb37e9ff9dd7d2c4dceba468b62a1 -> 
+  custom:scripting/monoscript/fileName/LevelManager.cs: 0959f45d5165d332cce097aa0a887a90 -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenPosition.cs: 933f15a6f695b7891c41909bc2d41a95 -> 
+  custom:scripting/monoscript/fileName/ProgressBar.cs: f3ee896909df9b0485470f57919b1db0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayersManager.cs: 350f764376dffd9127d498f0c0c866bf -> 
+  custom:scripting/monoscript/fileName/SetMaterialAtStart.cs: 433bb914a3dd804fac7a2021a852a005 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawnSlices.cs: aee3173c9d7f206756a6666327bf1abd -> 
+  custom:scripting/monoscript/fileName/ClickableScrewManager.cs: 3b9600dddcf0fca47008dd53b36bb606 -> 
+  custom:scripting/monoscript/fileName/SetUpLevelDetailsUI.cs: 80fb5b1777e7f98b269387192db72a4e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/OnTriggerEnterDoEvent.cs: 118ab718b96b2415a3c6cf5b0984c9aa -> 
+  custom:scripting/monoscript/fileName/ToggleChangeEvents.cs: ca082371a09b2d13b6adee84dff77875 -> 
+  custom:scripting/monoscript/fileName/OccupiedGrid.cs: e04d01e04e5f3eeb41473af40a34ab02 -> 
+  custom:scripting/monoscript/fileName/MergeStackButton.cs: 3b85d1f1ab4326332cf3039c8617f9c2 -> 
+  custom:scripting/monoscript/fileName/LockBlock.cs: 8e59c5f8b1129b36c357921ff080be93 -> 
+  custom:scripting/monoscript/fileName/UnlockedColors.cs: c38662fbac353eed098b5b325aa84cee -> 
+  custom:scripting/monoscript/fileName/GridTypes.cs: e03f27c3883905fee6dca6a116b4f433 -> 
+  custom:scripting/monoscript/fileName/ClickableByHammer.cs: 021accddf4a39a0f9bda8bf84705e699 -> 
+  custom:scripting/monoscript/fileName/ScaleAnimation.cs: 9143fbea0cf5ddf092af87089d0339bc -> 
+  custom:scripting/monoscript/fileName/GridChildrenAreSelectable.cs: 629be411c2952d96743f03648ea9cc15 -> 
+  custom:scripting/monoscript/fileName/DealStackButton.cs: 00d910e819762a27525dc907628d8d07 -> 
+  custom:scripting/monoscript/fileName/BoltMover.cs: 379bc29884d9c191125888a91d3afb57 -> 
+  custom:scripting/monoscript/fileName/FollowObject.cs: 84d25facf7ffda5816b3094355f3abe4 -> 
+  custom:scripting/monoscript/fileName/MatchCompletedEffectSpawner.cs: a47d489c3c4f20a33ba44e69b2029392 -> 
+  custom:scripting/monoscript/fileName/CheckForMoreTargetPositions.cs: 9a6ccd06764c547d6deb65ec2058a6e9 -> 
+  custom:scripting/monoscript/fileName/MoneyImageMoving.cs: 8181c96cf48badd25b43463ee7113097 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRespawn.cs: bd418e6cecd3a306a2f00d3cf6ad35dd -> 
+  custom:scripting/monoscript/fileName/ShowRemoveIcons.cs: cf53c537597a08b4e6c1bbff169127d9 -> 
+  custom:scripting/monoscript/fileName/TargetsDisplay.cs: 128a7a980e0999180cee0ef9d7147505 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RotateConstantly.cs: a830a1d659145ea444520b270badb16a -> 
+  custom:scripting/monoscript/fileName/SkillButton.cs: 048f13ff63ceee00ea524d078c41fad4 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Block.cs: 0ce38cae3b19291231ac10238ba002f4 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DropdownChangeEvents.cs: 27c0189c6a9907570d7cad330bb752ef -> 
+  custom:scripting/monoscript/fileName/ParabolicJump.cs: bedeb9caac673c25b1fff023b30ea667 -> 
+  custom:scripting/monoscript/fileName/DestroyGameobject.cs: 2fb9d3f33a5db7a0a1d5c85199bd7361 -> 
+  custom:scripting/monoscript/fileName/SpawnerOfStackContainer.cs: 7d2dabc4568e8992783f2b4b867adf56 -> 
+  custom:scripting/monoscript/fileName/DominoPointsManager.cs: 739f57555d0a066e1f1708ed7e1e59bb -> 
+  custom:scripting/monoscript/fileName/NutMoveOnBolt.cs: 4c7dfde0b816e6d0b3d30f135032a0bf -> 
+  custom:scripting/monoscript/fileName/PhysicalButton.cs: 68918270bf5789f4e779499949f18fb5 -> 
+  custom:scripting/monoscript/fileName/SetTransformOnEnable.cs: fd253272ee33e7830620f3b1bbdd89ec -> 
+  custom:scripting/monoscript/fileName/LevelManagerUnscrewJam.cs: f5989ad5f430acc044f399030e629476 -> 
+  custom:scripting/monoscript/fileName/ColorManager.cs: b6db1c0204e14fde5f537bf86f6f62eb -> 
+  custom:scripting/monoscript/fileName/MovableObject.cs: f69950cfdee8c8419f907b67fd3b1585 -> 
+  custom:scripting/monoscript/fileName/TrailColorChanger.cs: 30c07dbf702a49d06d7bcbf34937975b -> 
+  custom:scripting/monoscript/fileName/ContainerHolesHolder.cs: ca1abe961cb650e653588a16bea0d222 -> 
+  custom:scripting/monoscript/fileName/ScrewsLeftCounter.cs: 64b37b445028cc7eb3fcb27fb72cd825 -> 
+  custom:scripting/monoscript/fileName/CheckNeighbours.cs: 67f88fc406ba2d602c95ffb7f24b0126 -> 
+  custom:scripting/monoscript/fileName/LookAtObject.cs: ba6f98c3a0b3ebb652561c06d12cdef7 -> 
+  custom:scripting/monoscript/fileName/CheckNeighboursQueue.cs: 8baeed8bd77b727d0b27f006b57ea0dc -> 
+  custom:scripting/monoscript/fileName/PositionAnimation.cs: 0cd784076f8dabd7901d72ff47b4088d -> 
+  custom:scripting/monoscript/fileName/SpawnObjectsAndTheirVisuals.cs: a8ec6d757236cae91411d496b9627179 -> 
+  custom:scripting/monoscript/fileName/MainCameraController.cs: 75f8070c300b64c5865ebb085a0134cb -> 
+  custom:scripting/monoscript/fileName/OpenUrl.cs: d058ce92234ee1c3f542f4d859dbbb04 -> 
+  custom:scripting/monoscript/fileName/OnClickRelation.cs: e15b6044bbbbf162a6bf3fd4f4147884 -> 
+  custom:scripting/monoscript/fileName/RotationAnimation.cs: 8a733acbb1862177884799bfbd036e04 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SlicesOrderNextToEachOther.cs: 0683b77febe551f670321f29b96c737e -> 
+  custom:scripting/monoscript/fileName/TutorialUI.cs: df1916a94d2f445ac0804171e6db2fae -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnlockableGrid.cs: d8e8029dd80800254070bcc6204cf2d3 -> 
+  custom:scripting/monoscript/fileName/SnapObjectToGrid.cs: f1b3e3cf76d97b3aab0e1e9fc1e7db58 -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRandomManualRespawn.cs: 504f7cebaa6c4f03a90e6442ebdb433f -> 
+  custom:scripting/monoscript/fileName/SliderValueUI.cs: 5327df894a7d9e8167a3cc966b8e8921 -> 
+  custom:scripting/monoscript/fileName/StackContainer.cs: 1400e246a93ed9562c31b1c1d34d6f4b -> 
+  custom:scripting/monoscript/fileName/ScrewForJam.cs: 6e755186ed25f8b6f3196aff7fa04d1b -> 
+  custom:scripting/monoscript/fileName/ScrewManager.cs: 72196fffd790ca29644c368d77452fac -> 
+  custom:scripting/monoscript/fileName/ScrewBox.cs: 8e46a45e07dd10b6445cc5a2443aa065 -> 
+  custom:scripting/monoscript/fileName/LockInStack.cs: 809e3ebe04661efc3e2c14ddb7b5a713 -> 
+  custom:scripting/monoscript/fileName/MoneyChooserUI.cs: 957e911ee0c17c6f9c4bd5149e2a9a66 -> 
+  custom:scripting/monoscript/fileName/BoxSpacesForCans.cs: 841eb9ffcfff96bda010c0998b146de9 -> 
+  custom:scripting/monoscript/fileName/CollectedEffects.cs: 6573d0b5e6250cc53fcd70963170082f -> 
+  custom:scripting/monoscript/fileName/RayCaster.cs: 0e60e46b84cfede0ce38311310965c1e -> 
+  custom:scripting/monoscript/fileName/SelectableAfterPlaced.cs: b57535a772b451243ab6e3f6eb468db1 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawn.cs: 92aacc768faefdfe9ebc4d94c3d1f715 -> 
+  custom:scripting/monoscript/fileName/RotatingBlade.cs: 992f36b87973d70cde5fc273506330a2 -> 
+  custom:scripting/monoscript/fileName/ConveyorBelt.cs: 5c7417e26c71e75aa9f7b3f541df4992 -> 
+  custom:scripting/monoscript/fileName/CanBottle.cs: aff27a70385a6dd6909bdcd20df2a116 -> 
+  custom:scripting/monoscript/fileName/RewriteCollectedStacksCounter.cs: bd24a82f8a41699e7698f327d9a52fb4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: ebadf204c193151de10e95fc1f1bb317 -> 
+  custom:scripting/monoscript/fileName/SetConstantTrailWidth.cs: 81c95e2f1e56453dbc79f43c163c8670 -> 
+  custom:scripting/monoscript/fileName/FocusableObject.cs: 177fb84dae3bcfbf08aeea8b4c92eaee -> 
+  custom:scripting/monoscript/fileName/ClickedOptionsPopupManager.cs: 2aacbf8f5775f14907e7a7f34470f2cf -> 
+  custom:scripting/monoscript/fileName/Slice.cs: 4989648ed8660912e8d5f730a7a7c5b9 -> 
+  custom:scripting/monoscript/fileName/ParabolicJumpEnd.cs: edafbcc510efda0e51e36a2ea479b938 -> 
+  custom:scripting/monoscript/fileName/DisableAllClickableScriptsInChildren.cs: 990b8ce17cd7ebf9f658d66e745f3fa6 -> 
+  custom:scripting/monoscript/fileName/MoveObjectOnAxis.cs: 01c2d80612ddfb0f9eacbcb15ef870ff -> 
+  custom:scripting/monoscript/fileName/CollectedStacksCounter.cs: 1bd02cfecb901dc3786d0b993f93203c -> 
+  custom:scripting/monoscript/fileName/HideColor.cs: ad2367a3d50bb5f0576c8999dede4046 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e2228fa4929ce42e23366163330503c7 -> 
+  custom:scripting/monoscript/fileName/ContainersManager.cs: a96d0e96b709baa19074f811e6f64017 -> 
+  custom:scripting/monoscript/fileName/SphereCaster.cs: cefbcb7071e1c16b42a5e0283d56f1e2 -> 
+  custom:scripting/monoscript/fileName/ToggleManager.cs: d6cb8db8661662a0f5ef2823cc198a0c -> 
+  custom:scripting/monoscript/fileName/CreateNewVisualAtStart.cs: 8551acbefb2ed074782e110078aed8b0 -> 
+  custom:scripting/monoscript/fileName/CollectedPiecesCounter.cs: 7aa53610b0cdfbca6ce8ef9348e7497e -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenRotation.cs: bd6cf5870585b4934d7502f69505fac7 -> 
+  custom:scripting/monoscript/fileName/ListExtensions.cs: ddea891db07aa42f24817e329dedf122 -> 
+  custom:scripting/monoscript/fileName/HighlightMatchingStack.cs: a61cc43d9b1de0fd95513eb777e3e1b1 -> 
+  custom:scripting/monoscript/fileName/SpaceChildrenEvenly.cs: a05776194a75b679981fafc50f242e36 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.243 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 751ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3909.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 1.859900 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.627700 ms  DeleteObjects: 0.021500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/DisableMeshRenderer.cs: e90a04d2e2b168fb49b1a40e34fd1a5a -> 
+  custom:scripting/monoscript/fileName/JumpFlip.cs: bfff0606215ee4a30f00a5d939ffd41f -> 
+  custom:scripting/monoscript/fileName/MatchSymbolWithColor.cs: b2808351333d05a7f9a8a9142c34e815 -> 
+  custom:scripting/monoscript/fileName/PagesSystem.cs: a83a0b7eee35c1de18e6d79c4602f2fd -> 
+  custom:scripting/monoscript/fileName/Draggable.cs: 66e863476ed45cd643d76e3047e101d7 -> 
+  custom:scripting/monoscript/fileName/RotateAndMoveAround.cs: b237da34837051904221c7ff2b1eee59 -> 
+  custom:scripting/monoscript/fileName/LevelCreator.cs: 080573d289654572850b5958f11e973f -> 
+  custom:scripting/monoscript/fileName/GridMovementsController.cs: 98b5d16448925c14f56f1b2bcce9567a -> 
+  custom:scripting/monoscript/fileName/Screw.cs: 3d82257bc49165470acd05be3a7538db -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/LockedSlotsWithKey.cs: 7c775ab0e413761abd4ca843e2bb509c -> 
+  custom:scripting/monoscript/fileName/DragRotate.cs: e4b8f9c218bb3c7e6e0a5582a1926e9f -> 
+  custom:scripting/monoscript/fileName/PlaceSelectedObject.cs: 775b436da7cc2531a356bbf0b4b04c32 -> 
+  custom:scripting/monoscript/fileName/Clickable.cs: ffd1317c1f9d390215fed1bab1610d66 -> 
+  custom:scripting/monoscript/fileName/HammerSkill.cs: d9f5275122a627d5b84b2d9af5d346fa -> 
+  custom:scripting/monoscript/fileName/GridGenerator.cs: 72472d03bc76b7564c0948d14c21a37f -> 
+  custom:scripting/monoscript/fileName/UnparentOnEnable.cs: 7d2e2772282ea52aec0f317c43ae7cbc -> 
+  custom:scripting/monoscript/fileName/FillUpConveyorBeltColorsRandomly.cs: c1819eb837eb9cb147719f400f559b70 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AudioManager.cs: 475d1c509fa5a01005438a762f599615 -> 
+  custom:scripting/monoscript/fileName/SoundsManagerForTemplate.cs: 5f587482846bf542ff31b7e9dbf97de4 -> 
+  custom:scripting/monoscript/fileName/DisableDebuggingInBuilds.cs: 2d00a87048f8ab6d9c4b804e2693337b -> 
+  custom:scripting/monoscript/fileName/TutorialMovement.cs: 7cec80b2dc3a6665278b795f0bad6a8f -> 
+  custom:scripting/monoscript/fileName/StackColors.cs: ff8d97789d44bce9868565e2e8a77c64 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FollowMousePosition.cs: 7fabd9d3fc55656db1c7e001ff1d071c -> 
+  custom:scripting/monoscript/fileName/SortCardsLevelCheck.cs: 55d4d9fbdd660cf6434e826c24ccff36 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AudioButton.cs: e0de8813a8b1961b9a731be8dd42dff6 -> 
+  custom:scripting/monoscript/fileName/ScaleDownAndDestroy.cs: 539633d14d5b710604c348914debd76c -> 
+  custom:scripting/monoscript/fileName/CubeWithScrews.cs: 6e44506b243030b7ad0de11bac4c3fc1 -> 
+  custom:scripting/monoscript/fileName/TutorialHandManager.cs: 6c476e24ef9179b8a64041972168fd9e -> 
+  custom:scripting/monoscript/fileName/ShowcaseParent.cs: b9a518a0bd9f2c45d5b85ed3c3b5733d -> 
+  custom:scripting/monoscript/fileName/BoltHolder.cs: a83865fe224d353e23d8f1793b77ae6c -> 
+  custom:scripting/monoscript/fileName/SensorCheckForExit.cs: 6756e25f623d9a2299d775ac3ab95201 -> 
+  custom:scripting/monoscript/fileName/PossibleGridPositions.cs: 747188c87423ba42379bdba5e240e5ae -> 
+  custom:scripting/monoscript/fileName/RuntimePrefabCreator.cs: 122dd0201f710f2262866386ff233a3f -> 
+  custom:scripting/monoscript/fileName/BoxJumpController.cs: af2053018528e17b48bcc19b47ec6bb4 -> 
+  custom:scripting/monoscript/fileName/MovesConstraint.cs: 0f9e184ea41fb8b32a738e64a79e43ed -> 
+  custom:scripting/monoscript/fileName/AnimationPlayer.cs: 70feb37e9ff9dd7d2c4dceba468b62a1 -> 
+  custom:scripting/monoscript/fileName/LevelManager.cs: 0959f45d5165d332cce097aa0a887a90 -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenPosition.cs: 933f15a6f695b7891c41909bc2d41a95 -> 
+  custom:scripting/monoscript/fileName/ProgressBar.cs: f3ee896909df9b0485470f57919b1db0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/LayersManager.cs: 350f764376dffd9127d498f0c0c866bf -> 
+  custom:scripting/monoscript/fileName/SetMaterialAtStart.cs: 433bb914a3dd804fac7a2021a852a005 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawnSlices.cs: aee3173c9d7f206756a6666327bf1abd -> 
+  custom:scripting/monoscript/fileName/ClickableScrewManager.cs: 3b9600dddcf0fca47008dd53b36bb606 -> 
+  custom:scripting/monoscript/fileName/SetUpLevelDetailsUI.cs: 80fb5b1777e7f98b269387192db72a4e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/OnTriggerEnterDoEvent.cs: 118ab718b96b2415a3c6cf5b0984c9aa -> 
+  custom:scripting/monoscript/fileName/ToggleChangeEvents.cs: ca082371a09b2d13b6adee84dff77875 -> 
+  custom:scripting/monoscript/fileName/OccupiedGrid.cs: e04d01e04e5f3eeb41473af40a34ab02 -> 
+  custom:scripting/monoscript/fileName/MergeStackButton.cs: 3b85d1f1ab4326332cf3039c8617f9c2 -> 
+  custom:scripting/monoscript/fileName/LockBlock.cs: 8e59c5f8b1129b36c357921ff080be93 -> 
+  custom:scripting/monoscript/fileName/UnlockedColors.cs: c38662fbac353eed098b5b325aa84cee -> 
+  custom:scripting/monoscript/fileName/GridTypes.cs: e03f27c3883905fee6dca6a116b4f433 -> 
+  custom:scripting/monoscript/fileName/ClickableByHammer.cs: 021accddf4a39a0f9bda8bf84705e699 -> 
+  custom:scripting/monoscript/fileName/ScaleAnimation.cs: 9143fbea0cf5ddf092af87089d0339bc -> 
+  custom:scripting/monoscript/fileName/GridChildrenAreSelectable.cs: 629be411c2952d96743f03648ea9cc15 -> 
+  custom:scripting/monoscript/fileName/DealStackButton.cs: 00d910e819762a27525dc907628d8d07 -> 
+  custom:scripting/monoscript/fileName/BoltMover.cs: 379bc29884d9c191125888a91d3afb57 -> 
+  custom:scripting/monoscript/fileName/FollowObject.cs: 84d25facf7ffda5816b3094355f3abe4 -> 
+  custom:scripting/monoscript/fileName/MatchCompletedEffectSpawner.cs: a47d489c3c4f20a33ba44e69b2029392 -> 
+  custom:scripting/monoscript/fileName/CheckForMoreTargetPositions.cs: 9a6ccd06764c547d6deb65ec2058a6e9 -> 
+  custom:scripting/monoscript/fileName/MoneyImageMoving.cs: 8181c96cf48badd25b43463ee7113097 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRespawn.cs: bd418e6cecd3a306a2f00d3cf6ad35dd -> 
+  custom:scripting/monoscript/fileName/ShowRemoveIcons.cs: cf53c537597a08b4e6c1bbff169127d9 -> 
+  custom:scripting/monoscript/fileName/TargetsDisplay.cs: 128a7a980e0999180cee0ef9d7147505 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/RotateConstantly.cs: a830a1d659145ea444520b270badb16a -> 
+  custom:scripting/monoscript/fileName/SkillButton.cs: 048f13ff63ceee00ea524d078c41fad4 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Block.cs: 0ce38cae3b19291231ac10238ba002f4 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DropdownChangeEvents.cs: 27c0189c6a9907570d7cad330bb752ef -> 
+  custom:scripting/monoscript/fileName/ParabolicJump.cs: bedeb9caac673c25b1fff023b30ea667 -> 
+  custom:scripting/monoscript/fileName/DestroyGameobject.cs: 2fb9d3f33a5db7a0a1d5c85199bd7361 -> 
+  custom:scripting/monoscript/fileName/SpawnerOfStackContainer.cs: 7d2dabc4568e8992783f2b4b867adf56 -> 
+  custom:scripting/monoscript/fileName/DominoPointsManager.cs: 739f57555d0a066e1f1708ed7e1e59bb -> 
+  custom:scripting/monoscript/fileName/NutMoveOnBolt.cs: 4c7dfde0b816e6d0b3d30f135032a0bf -> 
+  custom:scripting/monoscript/fileName/PhysicalButton.cs: 68918270bf5789f4e779499949f18fb5 -> 
+  custom:scripting/monoscript/fileName/SetTransformOnEnable.cs: fd253272ee33e7830620f3b1bbdd89ec -> 
+  custom:scripting/monoscript/fileName/LevelManagerUnscrewJam.cs: f5989ad5f430acc044f399030e629476 -> 
+  custom:scripting/monoscript/fileName/ColorManager.cs: b6db1c0204e14fde5f537bf86f6f62eb -> 
+  custom:scripting/monoscript/fileName/MovableObject.cs: f69950cfdee8c8419f907b67fd3b1585 -> 
+  custom:scripting/monoscript/fileName/TrailColorChanger.cs: 30c07dbf702a49d06d7bcbf34937975b -> 
+  custom:scripting/monoscript/fileName/ContainerHolesHolder.cs: ca1abe961cb650e653588a16bea0d222 -> 
+  custom:scripting/monoscript/fileName/ScrewsLeftCounter.cs: 64b37b445028cc7eb3fcb27fb72cd825 -> 
+  custom:scripting/monoscript/fileName/CheckNeighbours.cs: 67f88fc406ba2d602c95ffb7f24b0126 -> 
+  custom:scripting/monoscript/fileName/LookAtObject.cs: ba6f98c3a0b3ebb652561c06d12cdef7 -> 
+  custom:scripting/monoscript/fileName/CheckNeighboursQueue.cs: 8baeed8bd77b727d0b27f006b57ea0dc -> 
+  custom:scripting/monoscript/fileName/PositionAnimation.cs: 0cd784076f8dabd7901d72ff47b4088d -> 
+  custom:scripting/monoscript/fileName/SpawnObjectsAndTheirVisuals.cs: a8ec6d757236cae91411d496b9627179 -> 
+  custom:scripting/monoscript/fileName/MainCameraController.cs: 75f8070c300b64c5865ebb085a0134cb -> 
+  custom:scripting/monoscript/fileName/OpenUrl.cs: d058ce92234ee1c3f542f4d859dbbb04 -> 
+  custom:scripting/monoscript/fileName/OnClickRelation.cs: e15b6044bbbbf162a6bf3fd4f4147884 -> 
+  custom:scripting/monoscript/fileName/RotationAnimation.cs: 8a733acbb1862177884799bfbd036e04 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SlicesOrderNextToEachOther.cs: 0683b77febe551f670321f29b96c737e -> 
+  custom:scripting/monoscript/fileName/TutorialUI.cs: df1916a94d2f445ac0804171e6db2fae -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UnlockableGrid.cs: d8e8029dd80800254070bcc6204cf2d3 -> 
+  custom:scripting/monoscript/fileName/SnapObjectToGrid.cs: f1b3e3cf76d97b3aab0e1e9fc1e7db58 -> 
+  custom:scripting/monoscript/fileName/ActiveStackContainersRandomManualRespawn.cs: 504f7cebaa6c4f03a90e6442ebdb433f -> 
+  custom:scripting/monoscript/fileName/SliderValueUI.cs: 5327df894a7d9e8167a3cc966b8e8921 -> 
+  custom:scripting/monoscript/fileName/StackContainer.cs: 1400e246a93ed9562c31b1c1d34d6f4b -> 
+  custom:scripting/monoscript/fileName/ScrewForJam.cs: 6e755186ed25f8b6f3196aff7fa04d1b -> 
+  custom:scripting/monoscript/fileName/ScrewManager.cs: 72196fffd790ca29644c368d77452fac -> 
+  custom:scripting/monoscript/fileName/ScrewBox.cs: 8e46a45e07dd10b6445cc5a2443aa065 -> 
+  custom:scripting/monoscript/fileName/LockInStack.cs: 809e3ebe04661efc3e2c14ddb7b5a713 -> 
+  custom:scripting/monoscript/fileName/MoneyChooserUI.cs: 957e911ee0c17c6f9c4bd5149e2a9a66 -> 
+  custom:scripting/monoscript/fileName/BoxSpacesForCans.cs: 841eb9ffcfff96bda010c0998b146de9 -> 
+  custom:scripting/monoscript/fileName/CollectedEffects.cs: 6573d0b5e6250cc53fcd70963170082f -> 
+  custom:scripting/monoscript/fileName/RayCaster.cs: 0e60e46b84cfede0ce38311310965c1e -> 
+  custom:scripting/monoscript/fileName/SelectableAfterPlaced.cs: b57535a772b451243ab6e3f6eb468db1 -> 
+  custom:scripting/monoscript/fileName/StackContainerRandomSpawn.cs: 92aacc768faefdfe9ebc4d94c3d1f715 -> 
+  custom:scripting/monoscript/fileName/RotatingBlade.cs: 992f36b87973d70cde5fc273506330a2 -> 
+  custom:scripting/monoscript/fileName/ConveyorBelt.cs: 5c7417e26c71e75aa9f7b3f541df4992 -> 
+  custom:scripting/monoscript/fileName/CanBottle.cs: aff27a70385a6dd6909bdcd20df2a116 -> 
+  custom:scripting/monoscript/fileName/RewriteCollectedStacksCounter.cs: bd24a82f8a41699e7698f327d9a52fb4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: ebadf204c193151de10e95fc1f1bb317 -> 
+  custom:scripting/monoscript/fileName/SetConstantTrailWidth.cs: 81c95e2f1e56453dbc79f43c163c8670 -> 
+  custom:scripting/monoscript/fileName/FocusableObject.cs: 177fb84dae3bcfbf08aeea8b4c92eaee -> 
+  custom:scripting/monoscript/fileName/ClickedOptionsPopupManager.cs: 2aacbf8f5775f14907e7a7f34470f2cf -> 
+  custom:scripting/monoscript/fileName/Slice.cs: 4989648ed8660912e8d5f730a7a7c5b9 -> 
+  custom:scripting/monoscript/fileName/ParabolicJumpEnd.cs: edafbcc510efda0e51e36a2ea479b938 -> 
+  custom:scripting/monoscript/fileName/DisableAllClickableScriptsInChildren.cs: 990b8ce17cd7ebf9f658d66e745f3fa6 -> 
+  custom:scripting/monoscript/fileName/MoveObjectOnAxis.cs: 01c2d80612ddfb0f9eacbcb15ef870ff -> 
+  custom:scripting/monoscript/fileName/CollectedStacksCounter.cs: 1bd02cfecb901dc3786d0b993f93203c -> 
+  custom:scripting/monoscript/fileName/HideColor.cs: ad2367a3d50bb5f0576c8999dede4046 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e2228fa4929ce42e23366163330503c7 -> 
+  custom:scripting/monoscript/fileName/ContainersManager.cs: a96d0e96b709baa19074f811e6f64017 -> 
+  custom:scripting/monoscript/fileName/SphereCaster.cs: cefbcb7071e1c16b42a5e0283d56f1e2 -> 
+  custom:scripting/monoscript/fileName/ToggleManager.cs: d6cb8db8661662a0f5ef2823cc198a0c -> 
+  custom:scripting/monoscript/fileName/CreateNewVisualAtStart.cs: 8551acbefb2ed074782e110078aed8b0 -> 
+  custom:scripting/monoscript/fileName/CollectedPiecesCounter.cs: 7aa53610b0cdfbca6ce8ef9348e7497e -> 
+  custom:scripting/monoscript/fileName/RandomizeChildrenRotation.cs: bd6cf5870585b4934d7502f69505fac7 -> 
+  custom:scripting/monoscript/fileName/ListExtensions.cs: ddea891db07aa42f24817e329dedf122 -> 
+  custom:scripting/monoscript/fileName/HighlightMatchingStack.cs: a61cc43d9b1de0fd95513eb777e3e1b1 -> 
+  custom:scripting/monoscript/fileName/SpaceChildrenEvenly.cs: a05776194a75b679981fafc50f242e36 -> 

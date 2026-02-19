@@ -1,0 +1,17 @@
+Third-Party Notices
+
+This asset package does not include any third-party content.
+
+Textures / 2D Icons
+Source: All textures, icons, and 2D assets were created entirely by the developer.
+License: Fully original works; no external licenses apply.
+
+Audio / Sound Effects / Music
+Status: No audio files are included.
+All previously used songs, sound effects, or audio materials have been fully removed from the package.
+No third-party audio assets are used.
+
+Compliance Note
+
+This package relies solely on original content produced by the developer.
+It does not incorporate any third-party materials and therefore complies fully with the Unity Asset Store Provider Agreement and Unity Asset Store Submission Guidelines.
