@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 4a5b4f6befa1a6b40b33095c2cb3e817
+  - enabled: 1
+    path: Assets/Scenes/HexagonStack.unity
+    guid: 2b42c1e935d66844da63293ec6eb21aa
+  - enabled: 1
+    path: Assets/Scenes/SortCake.unity
+    guid: 9680dea9e20746441a704c35c1776c08
+  - enabled: 1
+    path: Assets/Scenes/SortCards.unity
+    guid: 57ccffd224b3abe489c9690db3fb9f5a
+  - enabled: 1
+    path: Assets/Scenes/SortCards2.unity
+    guid: d2b7da874cec36f41bfa08376ed10589
+  - enabled: 1
+    path: Assets/Scenes/SortCoins.unity
+    guid: 1412465b6b9bfe0499eccb727c7687e4
   m_configObjects: {}

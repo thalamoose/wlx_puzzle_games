@@ -17,16 +17,7 @@ public class OptionsPanel : MonoBehaviour
 	/// <summary>
 	/// music button toggle, sfx button toggle, subtitle button toggle.
 	/// </summary>
-	public Button musicToggle, sfxToggle, subtitleToggle;
-	/// <summary>
-	/// List of buttons to represent each language button.
-	/// </summary>
-	public List<Button> languageButtons;
-	/// <summary>
-	/// Reference to a credits panel if there is one.
-	/// </summary>
-	[Tooltip("Reference to a credits panel if there is one.")]
-	public GameObject creditsPanel;
+	public Button musicToggle, sfxToggle;
 
 	/// <summary>
 	/// Set the options to show the correctly enabled buttons.
@@ -55,23 +46,6 @@ public class OptionsPanel : MonoBehaviour
 			{
 				OnSFXOptionIsOff (OptionState.LoadFromStart);
 			}
-		}
-
-		if (subtitleToggle != null)
-		{
-			if (ExpandedPlayerPrefs.GetInt (CommonKeysForPlayerPrefs.SUBTITLES_KEY, 0) == 1)
-			{
-				OnSubtitlesOptionIsOn (OptionState.LoadFromStart);
-			}
-			else
-			{
-				OnSubtitlesOptionIsOff (OptionState.LoadFromStart);
-			}
-		}
-
-		if (languageButtons.Count > 0)
-		{
-			SetLanguage (ExpandedPlayerPrefs.GetInt (CommonKeysForPlayerPrefs.LANGUAGE_KEY, 0));
 		}
 	}
 
@@ -124,24 +98,6 @@ public class OptionsPanel : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Shows the credits panel.
-	/// </summary>
-	public void ShowCreditsPanel()
-	{
-		if(creditsPanel != null)
-			creditsPanel.SetActive (true);
-	}
-
-	/// <summary>
-	/// Hides the credits panel.
-	/// </summary>
-	public void HideCreditsPanel()
-	{
-		if(creditsPanel != null)
-			creditsPanel.SetActive (false);
-	}
-
-	/// <summary>
 	/// Changes the music option value.
 	/// </summary>
 	public virtual void ChangeMusic()
@@ -190,14 +146,5 @@ public class OptionsPanel : MonoBehaviour
 			OnSubtitlesOptionIsOn (OptionState.OptionChangeOccurred);
 			ExpandedPlayerPrefs.SetInt (CommonKeysForPlayerPrefs.SUBTITLES_KEY, 1);
 		}
-	}
-
-	/// <summary>
-	/// Sets the active language.
-	/// </summary>
-	/// <param name="languageToSetTo">integer value of the language to set to.</param>
-	public virtual void SetLanguage(int languageToSetTo)
-	{
-		ExpandedPlayerPrefs.SetInt (CommonKeysForPlayerPrefs.LANGUAGE_KEY, languageToSetTo);
 	}
 }
