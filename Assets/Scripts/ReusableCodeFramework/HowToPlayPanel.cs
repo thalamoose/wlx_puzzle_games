@@ -15,7 +15,7 @@ public class HowToPlayPanel : MonoBehaviour
 	/// <summary>
 	/// The how to play page description text.
 	/// </summary>
-	public Text howToPlayPageDescriptionText;
+	//public Text howToPlayPageDescriptionText;
 	/// <summary>
 	/// The how to play page image.
 	/// </summary>
