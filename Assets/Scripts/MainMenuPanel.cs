@@ -9,8 +9,18 @@ public enum GameMode
 	Campaign = 2
 };
 
+public enum GameToRun
+{
+	HexagonStack = 2,
+	SortCake = 3,
+	SortCards = 4,
+	SortCards2 = 5,
+	SortCoins = 6
+}
+
 public class MainMenuPanel : MonoBehaviour
 {
+	public GameToRun gameToRun;
 	public GameObject campaignLevelSelectPanel;
 	public GameObject modeSelectPanel;
 	public GameObject highScorePanel;
@@ -72,7 +82,7 @@ public class MainMenuPanel : MonoBehaviour
 		ExpandedPlayerPrefs.SetInt ("GameMode", mode);
 		if (mode != (int)GameMode.Timed)
 		{
-			UnityEngine.SceneManagement.SceneManager.LoadScene ("GameScene");
+			UnityEngine.SceneManagement.SceneManager.LoadScene((int)gameToRun);
 		}
 		else
 		{
@@ -89,7 +99,7 @@ public class MainMenuPanel : MonoBehaviour
 	{
 		ButtonClickEffect ();
 		ExpandedPlayerPrefs.SetInt ("TimeInterval", interval);
-		UnityEngine.SceneManagement.SceneManager.LoadScene ("GameScene");
+		UnityEngine.SceneManagement.SceneManager.LoadScene((int)gameToRun);
 	}
 
 	public void HideTimedModeIntervalSelectPanel()
